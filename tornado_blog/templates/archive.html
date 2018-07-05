@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+    {% for entry in entries %}
+    
+    <h4><small>Archive</small></h4>
+    <h2><a href="/entry/{{ entry['slug'] }}">{{ entry['title'] }}</a></h2>
+    <h5><span class="glyphicon glyphicon-time"></span>
+	{{ locale.format_date(entry['published'], full_format=True, shorter=True) }}
+	</h5>
+     
+    {% end %}
+  
+{% end %}

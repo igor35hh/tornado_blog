@@ -1,0 +1,24 @@
+.login {
+	width: 50%;
+}
+
+.newlogin {
+	width: 50%;
+}
+
+.markdownlink {
+	float:right;
+}
+
+body {
+  height: calc(100vh - 100px);
+}
+
+footer {
+   position: fixed;
+   background-color: #555;
+   color: white;
+   padding: 15px;
+   bottom: 0px;
+   width: 100%;
+}

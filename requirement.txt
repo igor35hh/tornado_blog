@@ -1,0 +1,9 @@
+bcrypt==3.1.4
+cffi==1.11.5
+futures==3.1.1
+Markdown==2.6.11
+Momoko==2.2.4
+psycopg2==2.7.4
+pycparser==2.18
+six==1.11.0
+tornado==5.0

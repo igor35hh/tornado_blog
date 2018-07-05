@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="panel-body">
+<div class="row">
+
+<br><br>
+<h4>New author:)</h4>
+
+	<form role="form" action="/auth/create" method="POST" class="newlogin">
+		
+		<div class="form-group">
+		  Name: <input class="form-control" name="name" type="text" required=""><br>
+		</div>
+		<div class="form-group">
+		  Email: <input class="form-control" name="email" type="text" required=""><br>
+		</div>
+		<div class="form-group">
+		  Password: <input class="form-control" name="password" type="password" required=""><br>
+		</div>
+		
+		{% module xsrf_form_html() %}
+	
+	  <button type="submit" class="btn btn-success">Submit</button>
+	  
+	</form>
+	
+</div>
+</div>
+	
+{% end %}
