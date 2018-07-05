@@ -2,7 +2,7 @@
 advanced example of tornado demo blog
 
 here were used:
-	momoko
-	tornado
-	bootstrap
+	momoko,
+	tornado,
+	bootstrap,
 	unittest
